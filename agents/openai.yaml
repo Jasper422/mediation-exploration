@@ -1,0 +1,4 @@
+interface:
+  display_name: "多中介与多结果探索分析"
+  short_description: "按优先级报告多个候选，保留完整分析过程，并确认计分和模型方案"
+  default_prompt: "使用 $mediation-exploration 分析我提供的数据，先读取文件，在计分与测量检查、候选模型方案处分别向我确认，再输出多个候选分层总结和详细分析过程。"
